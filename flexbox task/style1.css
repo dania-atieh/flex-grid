@@ -1,0 +1,41 @@
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  height: 50px;
+  justify-content: space-between;
+}
+
+.flex-container-1{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+}
+
+.flex-container-2{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.box{
+    margin: 20px;
+    color:blueviolet;
+}
+
+.box1{
+    background-color: blueviolet;
+    border-radius: 10px;
+    color:aliceblue;
+    width: 10em;
+    height: fit-content;
+    text-align: center;
+    padding: 1em;
+    margin: 2em;
+}
+
+.circle{
+    background-color: blueviolet;
+    height:100px;
+    width:100px;
+    border-radius: 80%;
+    
+}

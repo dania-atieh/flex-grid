@@ -1,0 +1,45 @@
+.flexbox-container {
+  display: flex;
+}
+
+.flexbox-container-right {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-around;
+  width:80%;
+}
+
+.flexbox-container-left {
+  display: flex;
+  flex-flow: column wrap;
+  height: 100vh;
+  width:15%;
+  padding: 1em;
+  background-color: rgb(23, 23, 212);
+}
+
+.flexbox-container-left div {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.box {
+  border-style: solid;
+  border-color: rgb(161, 158, 158);
+  box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);
+  margin: 2em;
+  height: 200px;
+  width: 200px;
+  padding: 3em;
+}
+
+img {
+  height: 30px;
+  width: 30px;
+  margin: 0.5em;
+}
+
+.text {
+  color: aliceblue;
+}

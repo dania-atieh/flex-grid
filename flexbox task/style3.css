@@ -1,0 +1,28 @@
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+
+.flex-container-1 {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+}
+
+div {
+  margin: 1em;
+}
+
+.flex-container-2 {
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: 13em;
+}
+
+.button {
+  border-style: solid;
+  border-color: rgb(204, 191, 191);
+  background-color: rgb(204, 191, 191);
+  margin-top: -3em;
+}
